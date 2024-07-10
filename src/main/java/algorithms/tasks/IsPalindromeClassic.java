@@ -1,7 +1,10 @@
 package algorithms.tasks;
 
 public class IsPalindromeClassic {
-
+    /**
+     *  Реализация без использования регулярных выражений, пересоздания строк и StringBuilder с инверсией строки.
+     * @link {@link IsPalindromeClassicTest#isPalindromeShouldReturnTrue() Test for IsPalindromeClassic}
+     *  */
     public static boolean isPalindrome(String inputString) {
 
         int charChecker = 0;
