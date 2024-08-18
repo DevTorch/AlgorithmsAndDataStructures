@@ -1,8 +1,7 @@
 package algorithms;
 
-import algorithms.utils.IntArrays;
-
 import java.util.Arrays;
+import java.util.Comparator;
 
 public class DiscreteKnapsackProblem {
 
@@ -17,20 +16,24 @@ public class DiscreteKnapsackProblem {
 
     public static void main(String[] args) {
 
-        int[] values = IntArrays.getRandomArray(5, 50);
-        int[] weights = IntArrays.getRandomArray(5, 1, 15);
+        int[] values = {20, 10, 6, 14, 8};
+        int[] weights = {2, 3, 5, 7, 4};
+
         int maxWeight = 50;
 
-        System.out.println(Arrays.toString(values));
-        System.out.println(Arrays.toString(weights));
+        Item[] discreteItems = new Item[values.length];
+        for (int i = 0; i < values.length; i++) {
+            discreteItems[i] = new Item(weights[i], values[i]);
+        }
 
-
-        System.out.println(knapsack(values, weights, maxWeight));
+        System.out.println(discreteKnapsack(discreteItems, maxWeight));
 
     }
 
-    private static boolean knapsack(int[] values, int[] weights, int maxWeight) {
+    private static boolean discreteKnapsack(Item[] discreteItems,  int maxWeight) {
 
+        Arrays.sort(discreteItems, Comparator.comparingDouble(Item::valuePerUnitOfWeight).reversed());
+        System.out.printf("Sorted items: %s\n", Arrays.toString(discreteItems));
         return false;
     }
 }
