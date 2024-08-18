@@ -65,23 +65,19 @@ public class QuickSort {
     private static int partition(int[] array, int start, int end) {
 
         int pivot = array[end];
-
         int j = start;
 
         for (int k = start; k < end; k++) {
-
             if (array[k] <= pivot) {
                 swap(array, j, k);
                 j++;
             }
         }
-
         swap(array, j, end);
         return j;
     }
 
     private static void swap(int[] array, int j, int i1) {
-
         int temp = array[j];
         array[j] = array[i1];
         array[i1] = temp;
