@@ -11,6 +11,7 @@
 - **Fractional Knapsack**
 - **SlidingWindow:**
   - MaxSum subarray k in array N
+  - Min SubArray Length | dynamic sliding window borders
 - **Expression Parser:** для простейших арифметических операторов на основе обратной польской нотации. Пока для однозначных чисел.
 
 Для некоторых методов сортировки добавлены тесты. 
