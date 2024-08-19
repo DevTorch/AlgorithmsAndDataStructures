@@ -7,6 +7,16 @@ public class SlidingWindow {
         int k = 4;
         int subarraySum = maxSubarraySum(array, k);
         System.out.printf("Max Subarray Sum: %d\n", subarraySum);
+
+        int s = 20;
+        int sum = minSubArraySum(array, s);
+    }
+
+    private static int minSubArraySum(int[] array, int s) {
+        int n = array.length;
+        int minSum = Integer.MAX_VALUE;
+        
+        return 0;
     }
 
     /**
