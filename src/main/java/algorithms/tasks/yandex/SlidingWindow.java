@@ -1,9 +1,9 @@
-package algorithms.tasks;
+package algorithms.tasks.yandex;
 
 public class SlidingWindow {
     public static void main(String[] args) {
 
-        int[] array = new int[]{1, 3, 21, -1, 5, 5, 3, 6, 7};
+        int[] array = {1, 3, 21, -1, 5, 5, 3, 6, 7};
         int k = 4;
         int subarraySum = maxSubarraySum(array, k);
         System.out.printf("Max Subarray Sum: %d\n", subarraySum);
@@ -14,6 +14,7 @@ public class SlidingWindow {
     }
 
     /**
+     * <p>ЗАДАЧА С СОБЕСЕДОВАНИЙ В ЯНДЕКС:</p>
      * <b>Задача:</b> Найти наименьшую длину подмассива, сумма которого не меньше S</br>
      * <p><b>n:</b> длина массива nums.</p>
      * <p><b>minLength:</b> минимальная длина подмассива, инициализируется как <i>Integer.MAX_VALUE</i>.</p>
@@ -49,6 +50,7 @@ public class SlidingWindow {
     }
 
     /**
+     * <p>ЗАДАЧА С СОБЕСЕДОВАНИЙ В ЯНДЕКС:</p>
      * Максимальная сумма подмассива постоянной длины k в массиве array
      */
     private static int maxSubarraySum(int[] array, int k) {
@@ -65,9 +67,7 @@ public class SlidingWindow {
         int index = 0;
         while (k < array.length) {
             windowSum = windowSum + array[k] - array[index];
-            if (windowSum > maxSum) {
-                maxSum = windowSum;
-            }
+            maxSum = Math.max(windowSum, maxSum);
             index++;
             k++;
         }

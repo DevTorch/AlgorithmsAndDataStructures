@@ -1,6 +1,11 @@
-package algorithms.tasks;
+package algorithms.tasks.yandex;
 
 import java.util.HashMap;
+
+/*
+ ЗАДАЧА С СОБЕСЕДОВАНИЙ В ЯНДЕКС:
+ Даны две строки. Проверить, изоморфны ли они.
+ */
 
 public class YandexIsomorphicStrings {
 

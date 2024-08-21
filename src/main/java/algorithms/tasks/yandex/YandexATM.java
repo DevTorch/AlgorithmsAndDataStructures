@@ -1,9 +1,16 @@
-package algorithms.tasks;
+package algorithms.tasks.yandex;
 
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
+
+/*
+ >ЗАДАЧА С СОБЕСЕДОВАНИЙ В ЯНДЕКС:
+ Про банкомат:
+ - Инициализируется набором купюр и умеет выдавать купюры для заданной суммы, либо отвечать отказом.
+ - При выдаче купюры списываются с баланса банкомата.
+ - Допустимые номиналы: 50₽, 100₽, 500₽, 1000₽, 5000₽.
+ */
 
 public class YandexATM {
     private static final int MINIMAL_VALUE = Banknote.FIFTY.getValue();
@@ -20,7 +27,7 @@ public class YandexATM {
 
         System.out.printf("7_650: %s\n", withdraw(7_650));
         System.out.printf("-1: %s\n", withdraw(49));
-//        printBalance();
+        printBalance();
     }
 
     private static Map<Banknote, Integer> withdraw(int amount) {

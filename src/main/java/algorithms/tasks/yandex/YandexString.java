@@ -1,8 +1,13 @@
-package algorithms.tasks;
+package algorithms.tasks.yandex;
 
 import java.util.LinkedHashMap;
 import java.util.function.Function;
 import java.util.stream.Collectors;
+
+/*
+ЗАДАЧА С СОБЕСЕДОВАНИЙ В ЯНДЕКС:
+Вывести A4B3... Если символ в строке встречается один раз, он остается без изменений и дополнений.
+ */
 
 public class YandexString {
     public static void main(String[] args) {
