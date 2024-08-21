@@ -6,7 +6,9 @@ import java.util.Map;
 import java.util.TreeMap;
 
 public class YandexATM {
-    private static final Map<Banknote, Integer> initialBanknotes = new HashMap<>();
+    private static final int MINIMAL_VALUE = Banknote.FIFTY.getValue();
+    private static final Map<Banknote, Integer> initialBanknotes =
+            new TreeMap<>(Comparator.comparing(Banknote::getValue).reversed());
 
     public static void main(String[] args) {
 
@@ -18,13 +20,13 @@ public class YandexATM {
 
         System.out.printf("7_650: %s\n", withdraw(7_650));
         System.out.printf("-1: %s\n", withdraw(49));
-        printBalance();
+//        printBalance();
     }
 
     private static Map<Banknote, Integer> withdraw(int amount) {
 
-        if (amount <= 50 || amount % 50 != 0) {
-            return new HashMap<>(){{
+        if (amount <= MINIMAL_VALUE || amount % MINIMAL_VALUE != 0) {
+            return new TreeMap<>(){{
                 put(Banknote.NOT_POSSIBLE, -1);
             }};
         }
@@ -41,7 +43,7 @@ public class YandexATM {
             }
         }
         if (amount > 0) {
-            return new HashMap<>(){{
+            return new TreeMap<>(){{
                 put(Banknote.NOT_POSSIBLE, -1);
             }};
         }
@@ -63,6 +65,12 @@ public class YandexATM {
     private static void printBalance() {
         for (Map.Entry<Banknote, Integer> banknote : initialBanknotes.entrySet()) {
             System.out.println(banknote.getKey().getValue() + "₽" + " " + banknote.getValue());
+        }
+    }
+
+    private static void printBalance(Map<Banknote, Integer> withdraw) {
+        for (Map.Entry<Banknote, Integer> entry : withdraw.entrySet()) {
+            System.out.println(entry.getKey().getValue() + "₽" + " " + entry.getValue());
         }
     }
 }
