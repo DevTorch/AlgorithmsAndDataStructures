@@ -1,4 +1,4 @@
-package algorithms.tasks;
+package algorithms.tasks.bellintegrator;
 
 public class BellIntegratorStringToLong {
 

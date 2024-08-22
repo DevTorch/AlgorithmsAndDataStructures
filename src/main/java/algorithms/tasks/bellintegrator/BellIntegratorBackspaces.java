@@ -1,4 +1,4 @@
-package algorithms.tasks;
+package algorithms.tasks.bellintegrator;
 
 /*
 ЗАДАЧА С СОБЕСЕДОВАНИЯ BELL INTEGRATOR:
@@ -12,7 +12,6 @@ backspaceCompare("a#c", "b") → false ("c" ≠ "b")
 backspaceCompare("#######abc", "#abc") → true (обе строки становятся "abc")
 backspaceCompare("abbb##cc###", "addd##ee###") → true (обе строки превращаются в "a")
 */
-
 
 import java.util.Stack;
 
