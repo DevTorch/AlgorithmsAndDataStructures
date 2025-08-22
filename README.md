@@ -7,6 +7,12 @@
 - **Сортировка выбором**
 - **Сортировка слиянием**
 
+# Базовые/обучающие алгоритмы:
+- **Trailing Zeros in a Factorial** – количество нулей в факториале по заданному вводу
+- **Greatest Common Divisor** – наибольший общий делитель или наибольший общий множитель (GCD/HCF): brute force, Euclidean, Lame
+- **Least Common Multiple** – наименьшее общее кратное (HOK): brute force, Euclidean, Lame
+- **Prime Numbers** – простые числа: brute force, оптимизированный, решето Эратосфена для одного числа и ряда чисел от 0 до n
+
 # Задачи:
 - **Fractional Knapsack**
 - **SlidingWindow:** с собеседований в Яндекс
