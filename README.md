@@ -12,6 +12,8 @@
 - **Greatest Common Divisor** – наибольший общий делитель или наибольший общий множитель (GCD/HCF): brute force, Euclidean, Lame
 - **Least Common Multiple** – наименьшее общее кратное (HOK): brute force, Euclidean, Lame
 - **Prime Numbers** – простые числа: brute force, оптимизированный, решето Эратосфена для одного числа и ряда чисел от 0 до n
+- **All Divisors of a Given Number** – все делители заданного числа: brute force, оптимизированный и оптимизированный с сортировкой
+- **Prime Factors** – простые множители числа
 
 # Задачи:
 - **Fractional Knapsack**
