@@ -14,6 +14,10 @@
 - **Prime Numbers** – простые числа: brute force, оптимизированный, решето Эратосфена для одного числа и ряда чисел от 0 до n
 - **All Divisors of a Given Number** – все делители заданного числа: brute force, оптимизированный и оптимизированный с сортировкой
 - **Prime Factors** – простые множители числа
+- **Bit Manipulation: Decimal to Binary** – преобразование десятичного числа в двоичное
+- **Bit Manipulation: Binary to Decimal** – преобразование двоичного числа в десятичное
+- **Bit Masking** – побитовые маски и их применение
+- **Position of right most set bit** – позиция правого установленного бита: brute force, оптимизированный O(1)
 
 # Задачи:
 - **Fractional Knapsack**
