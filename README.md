@@ -18,6 +18,9 @@
 - **Bit Manipulation: Binary to Decimal** – преобразование двоичного числа в десятичное
 - **Bit Masking** – побитовые маски и их применение
 - **Position of right most set bit** – позиция правого установленного бита: brute force, оптимизированный O(1)
+- **Count Number of Set Bits in Given Number** – подсчет количества установленных битов в заданном числе
+- **Is Number a Pow of Two** – алгоритм Брайана Кернигана
+- **Поиск длины последовательности единиц в двоичном представлении числа** 
 
 # Задачи:
 - **Fractional Knapsack**
