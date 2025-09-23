@@ -8,6 +8,7 @@
 - **Сортировка слиянием**
 
 # Базовые/обучающие алгоритмы:
+## Побитовые операции:
 - **Trailing Zeros in a Factorial** – количество нулей в факториале по заданному вводу
 - **Greatest Common Divisor** – наибольший общий делитель или наибольший общий множитель (GCD/HCF): brute force, Euclidean, Lame
 - **Least Common Multiple** – наименьшее общее кратное (HOK): brute force, Euclidean, Lame
@@ -21,6 +22,15 @@
 - **Count Number of Set Bits in Given Number** – подсчет количества установленных битов в заданном числе
 - **Is Number a Pow of Two** – алгоритм Брайана Кернигана
 - **Поиск длины последовательности единиц в двоичном представлении числа** 
+- **Swap All Even And Odd Bits** – переставление четных и нечетных битов в двоичном представлении числа
+- **Count Number Of Trailing Zeros** – подсчет последовательности нулей в хвосте двоичного представления числа (основано на *Position of right most set bit*)
+- **Reversing Bits Of An Integer** – переставление битов целочисленного значения в обратном порядке
+- **N-th Palindromic Binary Representation**
+- **Swap All Even and Odd Bits** – перестановка битов в четных и нечетных позициях
+- **Maximum And Value Of Array Elements** – Максимальное значение AND пары чисел из массива (довести бы до ума)
+
+## Рекурсия: 
+- **Factorial Of A NumberUsing Recursion** – нахождение факториала числа
 
 # Задачи:
 - **Fractional Knapsack**
