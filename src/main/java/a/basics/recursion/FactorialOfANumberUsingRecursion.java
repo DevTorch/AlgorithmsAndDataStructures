@@ -1,4 +1,4 @@
-package a.basics;
+package a.basics.recursion;
 
 public class FactorialOfANumberUsingRecursion {
     public static void main(String[] args) {
