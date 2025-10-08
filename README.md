@@ -36,7 +36,12 @@
 - **Count Number Of Digits** – рекурсивный подсчет количества цифр в числе
 - **Sum of Digits Of A Number** – рекурсивный подсчет суммы всех цифр в числе 
 - **Reverse A String Using Recursion** – рекурсивный вывод символов в строке в обратном порядке
-- - **Check If A String Is Palindrome** – рекурсивная проверка является строка палиндромом
+- **Check If A String Is Palindrome** – рекурсивная проверка является строка палиндромом
+- **Sum Of All Elements In An Array Using Recursion** – сумма всех элементов массива
+- **Проблема Иосифа Флавия**
+- **Все комбинации скобок ()**
+- **Все подстроки входящей строки**
+- **Letter Combination Of A Phone Number**
 
 # Задачи:
 - **Fractional Knapsack**
