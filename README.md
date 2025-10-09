@@ -42,6 +42,7 @@
 - **Все комбинации скобок ()**
 - **Все подстроки входящей строки**
 - **Letter Combination Of A Phone Number**
+- **Print All The Permutations Of A String** – все перестановки в строке
 
 # Задачи:
 - **Fractional Knapsack**
