@@ -43,6 +43,7 @@
 - **Все подстроки входящей строки**
 - **Letter Combination Of A Phone Number**
 - **Print All The Permutations Of A String** – все перестановки в строке
+- **Solution Of Rope Cutting Problem** – максимальное количество отрезков из заданных длин
 
 # Задачи:
 - **Fractional Knapsack**
