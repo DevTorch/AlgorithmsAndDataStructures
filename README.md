@@ -44,6 +44,9 @@
 - **Letter Combination Of A Phone Number**
 - **Print All The Permutations Of A String** – все перестановки в строке
 - **Solution Of Rope Cutting Problem** – максимальное количество отрезков из заданных длин
+- **Solution Of Subset Sum Problem** – количество комбинаций элементов массива, дающих заданную сумму
+- **Lucky Number** – является ли число «счастливым» (по сути, простым) 
+- **Tower Of Hanoi Problem** – головоломка с дисками «Ханойская Башня»
 
 # Задачи:
 - **Fractional Knapsack**
